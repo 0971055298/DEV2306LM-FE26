@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thẻ hiện thị hình ảnh</title>
+</head>
+<body>
+    <h1>Thẻ hiện thị hình ảnh</h1>
+    <hr>
+    <p>
+       Hà Nội mùa thu
+       Cây cơm nguội vàng
+       Cây bàng lá đỏ
+    </p>
+    <pre>
+        Hà Nội mùa thu
+        Cây cơm nguội vàng
+        Cây bàng lá đỏ
+        <hr>
+        - Dùng thẻ img:
+            - Các thuộc tính thường dùng: src , alt 
+                + src: URL (đường dẫn đến file ảnh)
+                + alt : nội dung mô tả
+            - URL: 2 loại đường dẫn
+                + URL tuyệt đối:
+                    [giao thức]://domain/path_(folder/file)
+                    Ví dụ:
+                    https://devmaster.edu.vn/images/logo.png
+
+                + URL tương đối:
+                    ++ vào trong một thư mục:
+                        folderName/
+                    ++ ra ngoài một thư mục:
+                        ../
+                        ../../
+            - target: chỉ đích đến
+                
+    </pre>
+    <h2>Sử dụng url tuyệt đối</h2>
+    <img src="https://devmaster.edu.vn/images/logo.png" alt="Devmaster Academy">
+    <br>
+    <img src="https://salt.tikicdn.com/ts/upload/e4/49/6c/270be9859abd5f5ec5071da65fab0a94.png" alt="Tiki" style="width: 150px">
+    <hr>
+    <h2>Sử dụng url tương đối</h2>
+    <img src="images/logo.png" alt="Logo">
+    <hr>
+    <img src="images/asp.jpg" alt="Microsoft ASP.NET" style="width:400px">
+</body>
+</html>
